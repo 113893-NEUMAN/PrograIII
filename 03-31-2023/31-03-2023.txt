@@ -1,0 +1,12 @@
+Profes:
+
+Niolas Horenstein
+nhorenstein@frc.utn.edu.ar
+
+Akio Tamashiro (tama)
+angelakio.tamashiro@gmail.com
+----------------------------------
+Frameworks a ver:
+
+  -  .Net Maui
+  -  Blazor

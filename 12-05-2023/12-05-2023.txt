@@ -1,0 +1,21 @@
+API - "Aplicacion con puertas para que puedan hacer consultas"
+    - Devuelve JSON
+    - Aplicaciones REST
+
+Web Service - Similar a la API pero mas vieja
+            - Devuelve XML
+            - Aplicaciones SOAP
+
+OpenAPI - ver significado
+
+
+ORM - Entity Framework, Nhibernate, Dapper (3 mas importantes)
+    - Mapea el objeto y te lo traduce a lo que estes usando (tablas --> objetos / objetos --> tablas)
+
+-------------------------------------
+
+- cd a la solucion (mismo nombre que el proyecto) por que por default estamos parados en el proyecto.
+
+Comandos dotnet
+- dotnet ef migrations add nombre_migracion  --> para las migraciones
+- dotnet ef database update --> lleva la migracion a la DB (siempre la ultima)

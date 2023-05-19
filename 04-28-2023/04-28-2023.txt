@@ -1,0 +1,10 @@
+400 -- Bad request -- Mal hecha la peticion
+401 -- Porblema con las credenciales
+403 -- Forbidden -- Intentamos acceder a un lugar donde no tenemos permisos
+404 -- Not found -- No encontrado
+
+Validaciones: sirven para corroborar el tipo de dato, mails, firma, cantidad de caracteres, etc.
+Firma de un metodo: cantidad y tipo de dato de cada parametro que recibe.
+Sobrecarga (metodo): creación de varios métodos con el mismo nombre pero con diferente lista de parámetros.
+
+sweetalert --> Libreria para hacer las alertas mas 'lindas'

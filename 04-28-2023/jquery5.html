@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery</title>
+</head>
+<body>
+    <h2>Quinto ej JQuery</h2>
+    <p class="clasePrimero" id="primero">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi veritatis a in ipsam ab aliquam! Voluptates quasi labore quam est, sapiente maxime, repudiandae inventore numquam eius, animi accusamus nemo? Rem!</p>
+    <p id="segundo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias quia minima sequi repellendus est sunt odit asperiores, deleniti fuga ex, recusandae rem quae aperiam. Fugiat dignissimos possimus error quis perferendis.</p>
+    <button>Haceme click</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            console.log( "ready!" );
+            $("p").click(function () {
+                $(this).hide()
+            })
+        });
+    </script>
+</body>
+</html>
